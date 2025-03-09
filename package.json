@@ -1,7 +1,7 @@
 {
   "name": "perfect-dark-theme",
   "displayName": "Perfect Dark Theme",
-  "description": "A minimal dark theme for night owls 🦉. Perfect for high contrast and readability.",
+  "description": "A minimal dark theme for night owls 🦉. Perfect for high contrast and readability.Inspirer by NextJs decimation theme.",
   "version": "0.0.1",
   "publisher": "heygourab",
   "engines": {
@@ -24,7 +24,8 @@
     "dark theme",
     "perfect dark",
     "high contrast",
-    "readable"
+    "readable",
+    "NextJs theme"
   ],
   "license": "MIT",
   "repository": {
