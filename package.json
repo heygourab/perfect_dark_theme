@@ -2,8 +2,9 @@
   "name": "perfect-dark-theme",
   "displayName": "Perfect Dark Theme",
   "description": "A sleek dark theme optimized for night coding 🦉. Features high contrast colors and enhanced readability, inspired by Next.js documentation theme.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "heygourab",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },
