@@ -1,6 +1,6 @@
 # Perfect Dark Theme
 
-A refined dark theme for your code editor, designed for night owls with high contrast, readability, and a sleek modern aesthetic.
+A sleek dark theme optimized for night coding 🦉. Features high contrast colors and enhanced readability, inspired by Next.js documentation theme.
 
 ## Features
 
