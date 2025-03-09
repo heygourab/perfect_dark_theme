@@ -10,11 +10,14 @@ A sleek dark theme optimized for night coding 🦉. Features high contrast color
 
 ## Theme demos
 
-[Default](https://github.com/heygourab/perfect_dark_theme/blob/main/images/demos/default.png)
+### Default
+<img width="1291" alt="default" src="https://github.com/user-attachments/assets/8ed11222-6fde-4d3d-89a9-24ded1cd4b1c" />
 
-[TSX_OR_JSX](https://github.com/heygourab/perfect_dark_theme/blob/main/images/demos/tsx_or_jsx.png)
+### TSX OR JSX
+<img width="1291" alt="tsx_or_jsx" src="https://github.com/user-attachments/assets/bf34e270-70d2-4ea7-8530-df65ea738cb4" />
 
-[CSS](https://github.com/heygourab/perfect_dark_theme/blob/main/images/demos/css.png)
+### CSS
+<img width="1291" alt="css" src="https://github.com/user-attachments/assets/00c31bd7-0d4a-4299-b963-917ab9e15162" />
 
 ## Installation
 
