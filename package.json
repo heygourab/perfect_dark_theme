@@ -1,0 +1,34 @@
+{
+  "name": "perfect-dark-theme",
+  "displayName": "Perfect Dark Theme",
+  "description": "A minimal dark theme for night owls 🦉. Perfect for high contrast and readability.",
+  "version": "0.0.1",
+  "publisher": "heygourab",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Perfect Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/perfect-dark-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "perfect dark",
+    "high contrast",
+    "readable"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heygourab/<your-repo>.git"
+  }
+}

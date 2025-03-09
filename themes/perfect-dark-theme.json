@@ -1,0 +1,704 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "colors": {
+    // === Activity Bar ===
+    "activityBar.activeBorder": "#ffffff", // Brighter white for active item border
+    "activityBar.background": "#000000", // Pure black for a clean, deep background
+    "activityBar.border": "#2a2a2a", // Slightly lighter gray for subtle separation (was #242424)
+    "activityBar.foreground": "#ffffff", // Full white for icons (was #ededed)
+    "activityBar.inactiveForeground": "#999999", // Brighter gray for inactive icons (was #878787)
+    "activityBarBadge.background": "#ffffff", // White badges for contrast
+    "activityBarBadge.foreground": "#000000", // Black text for readability
+
+    // === Badges ===
+    "badge.background": "#ffffff", // Consistent with activity bar badges
+    "badge.foreground": "#000000",
+
+    // === Breadcrumbs ===
+    "breadcrumb.activeSelectionForeground": "#ffffff", // Brighter active selection (was #ededed)
+    "breadcrumb.focusForeground": "#ffffff", // Brighter focus (was #ededed)
+    "breadcrumb.foreground": "#bbbbbb", // Lighter gray for better visibility (was #a1a1a1)
+    "breadcrumbPicker.background": "#000000", // Black for consistency
+
+    // === Buttons ===
+    "button.background": "#ffffff", // White buttons for prominence (was #ededed)
+    "button.foreground": "#000000", // Black text for contrast
+    "button.hoverBackground": "#e0e0e0", // Slightly darker hover (was #ededed)
+    "button.secondaryBackground": "#333333", // Darker secondary buttons (was #ffffff1a)
+    "button.secondaryForeground": "#bbbbbb", // Lighter gray for readability (was #a1a1a1)
+    "button.secondaryHoverBackground": "#444444", // More noticeable hover (was #333333)
+
+    // === Checkbox ===
+    "checkbox.background": "#000000", // Black background
+    "checkbox.border": "#444444", // Lighter border for visibility (was #333333)
+
+    // === Command Center ===
+    "commandCenter.activeBackground": "#111111", // Slightly lighter active bg (was #0a0a0a)
+    "commandCenter.activeBorder": "#2a2a2a", // Consistent with activity bar (was #242424)
+    "commandCenter.background": "#111111", // Lighter base (was #0a0a0a)
+    "commandCenter.border": "#2a2a2a", // Consistent border
+    "commandCenter.debuggingBackground": "#444444", // More visible debugging state (was #ffffff1a)
+    "commandCenter.inactiveBorder": "#333333", // Slightly darker (was #ffffff1a)
+
+    // === Debug Toolbar ===
+    "debugToolBar.background": "#000000", // Black for consistency
+
+    // === Text and Descriptions ===
+    "descriptionForeground": "#ffffff", // Full white for better readability (was #ededed)
+
+    // === Diff Editor ===
+    "diffEditor.insertedTextBackground": "#58c76055", // More opaque green for insertions (was #58c76033)
+    "diffEditor.removedTextBackground": "#f05b8d55", // More opaque red for deletions (was #f05b8d33)
+
+    // === Dropdowns ===
+    "dropdown.background": "#000000", // Black background
+    "dropdown.border": "#444444", // Lighter border (was #333333)
+    "dropdown.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+    "dropdown.listBackground": "#000000", // Consistent black
+
+    // === Editor ===
+    "editor.background": "#0a0a0a", // Near-black for depth
+    "editor.findMatchBackground": "#f9990288", // Strong orange for matches
+    "editor.findMatchHighlightBackground": "#f9990244", // More visible highlight (was #f9990222)
+    "editor.focusedStackFrameHighlightBackground": "#444444", // Brighter stack frame (was #333333)
+    "editor.foldBackground": "#ffffff33", // More noticeable fold (was #ffffff1a)
+    "editor.foreground": "#ffffff", // Full white for text (was #ededed)
+    "editor.inactiveSelectionBackground": "#ffffff33", // More visible inactive selection (was #ffffff1a)
+    "editor.lineHighlightBackground": "#ffffff33", // Brighter line highlight (was #ffffff1a)
+    "editor.linkedEditingBackground": "#ffffff33", // Consistent with others
+    "editor.selectionBackground": "#ffffff33", // More distinct selection
+    "editor.selectionHighlightBackground": "#ffffff33", // Consistent highlight
+    "editor.selectionHighlightBorder": "#ffffff33", // Matching border
+    "editor.stackFrameHighlightBackground": "#f9990244", // Brighter stack frame (was #f9990225)
+    "editor.wordHighlightBackground": "#ffffff33", // More visible word highlight
+    "editor.wordHighlightBorder": "#ffffff33", // Added subtle border (was #00000000)
+    "editor.wordHighlightStrongBackground": "#ffffff44", // Stronger highlight (was #00000000)
+    "editor.wordHighlightStrongBorder": "#ffffff44", // Matching border
+    "editorBracketMatch.background": "#ffffff33", // Brighter bracket match
+    "editorBracketMatch.border": "#ffffff33", // Added border (was #00000000)
+    "editorCursor.foreground": "#ffffff", // White cursor (was #ededed)
+
+    // === Editor Groups ===
+    "editorGroup.border": "#2a2a2a", // Consistent border
+    "editorGroupHeader.tabsBackground": "#000000", // Black tabs
+    "editorGroupHeader.tabsBorder": "#2a2a2a", // Matching border
+
+    // === Gutter ===
+    "editorGutter.addedBackground": "#58c760", // Bright green for additions
+    "editorGutter.deletedBackground": "#f05b8d", // Bright red for deletions
+    "editorGutter.modifiedBackground": "#f99902", // Orange for modifications
+
+    // === Hover Widget ===
+    "editorHoverWidget.background": "#000000", // Black background
+    "editorHoverWidget.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+
+    // === Indent Guides ===
+    "editorIndentGuide.activeBackground1": "#444444", // More visible active guide (was #242424)
+    "editorIndentGuide.background1": "#333333", // Slightly lighter (was #242424)
+
+    // === Inlay Hints ===
+    "editorInlayHint.background": "#111111", // Lighter bg for contrast (was #0a0a0a)
+    "editorInlayHint.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+
+    // === Line Numbers ===
+    "editorLineNumber.activeForeground": "#bbbbbb", // Brighter active (was #a1a1a1)
+    "editorLineNumber.foreground": "#999999", // Lighter inactive (was #878787)
+
+    // === Overview Ruler ===
+    "editorOverviewRuler.border": "#2a2a2a", // Consistent border (was #000000)
+    "editorOverviewRuler.errorForeground": "#f05b8d", // Red for errors
+
+    // === Ruler and Whitespace ===
+    "editorRuler.foreground": "#333333", // Slightly lighter (was #242424)
+    "editorWhitespace.foreground": "#999999", // Brighter whitespace (was #878787)
+
+    // === Editor Widget ===
+    "editorWidget.background": "#000000", // Black background
+    "editorWidget.border": "#444444", // Lighter border (was #333333)
+
+    // === Errors and Warnings ===
+    "errorForeground": "#f56464", // Bright red for errors
+    "errorLens.errorBackground": "#f5646455", // More opaque bg (was #f5646433)
+    "errorLens.errorForeground": "#f56464", // Consistent red
+    "errorLens.hintBackground": "#62a6ff55", // More opaque hint bg
+    "errorLens.hintForeground": "#62a6ff", // Blue for hints
+    "errorLens.infoBackground": "#62a6ff55", // Consistent info bg
+    "errorLens.infoForeground": "#62a6ff", // Blue for info
+    "errorLens.warningBackground": "#f9990255", // More opaque warning bg
+    "errorLens.warningForeground": "#f99902", // Orange for warnings
+
+    // === Focus and Foreground ===
+    "focusBorder": "#444444", // Visible focus border (was #00000000)
+    "foreground": "#bbbbbb", // Brighter default text (was #a1a1a1)
+
+    // === Git Decorations ===
+    "gitDecoration.addedResourceForeground": "#58c760", // Green for added
+    "gitDecoration.conflictingResourceForeground": "#f99902", // Orange for conflicts
+    "gitDecoration.deletedResourceForeground": "#f56464", // Red for deleted
+    "gitDecoration.ignoredResourceForeground": "#777777", // Gray for ignored
+    "gitDecoration.modifiedResourceForeground": "#f99902", // Orange for modified
+    "gitDecoration.submoduleResourceForeground": "#ffffff", // White for submodules
+    "gitDecoration.untrackedResourceForeground": "#58c760", // Green for untracked
+
+    // === Icons ===
+    "icon.foreground": "#bbbbbb", // Brighter icons (was #a1a1a1)
+
+    // === Input Fields ===
+    "input.background": "#000000", // Black background
+    "input.border": "#444444", // Lighter border (was #333333)
+    "input.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+    "input.placeholderForeground": "#999999", // Lighter placeholder (was #a1a1a1)
+
+    // === Lists ===
+    "list.activeSelectionBackground": "#ffffff33", // More visible selection
+    "list.activeSelectionForeground": "#ffffff", // White text (was #ededed)
+    "list.errorForeground": "#f05b8d", // Red for errors
+    "list.focusBackground": "#ffffff33", // Consistent focus
+    "list.focusForeground": "#ffffff", // White for focus
+    "list.highlightForeground": "#ffffff", // White for highlights
+    "list.hoverBackground": "#ffffff33", // More visible hover
+    "list.hoverForeground": "#ffffff", // White for hover
+    "list.inactiveFocusBackground": "#ffffff33", // Consistent inactive focus
+    "list.inactiveSelectionBackground": "#ffffff33", // More visible
+    "list.inactiveSelectionForeground": "#bbbbbb", // Brighter text (was #a1a1a1)
+    "list.warningForeground": "#f99902", // Orange for warnings
+
+    // === Minimap ===
+    "minimap.selectionHighlight": "#ffffff44", // More visible selection (was #ffffff1a)
+
+    // === Notifications ===
+    "notificationCenterHeader.background": "#000000", // Black background
+    "notificationCenterHeader.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+    "notifications.background": "#000000", // Black bg
+    "notifications.border": "#444444", // Lighter border (was #333333)
+    "notifications.foreground": "#ffffff", // White text (was #ededed)
+    "notificationsErrorIcon.foreground": "#f05b8d", // Red for errors
+    "notificationsInfoIcon.foreground": "#62a6ff", // Blue for info
+    "notificationsWarningIcon.foreground": "#f99902", // Orange for warnings
+
+    // === Panels ===
+    "panel.background": "#000000", // Black background
+    "panel.border": "#2a2a2a", // Consistent border
+    "panelInput.border": "#444444", // Lighter border (was #333333)
+    "panelTitle.activeBorder": "#ffffff", // White for active (was #ededed)
+    "panelTitle.activeForeground": "#ffffff", // White text
+    "panelTitle.inactiveForeground": "#bbbbbb", // Brighter inactive (was #a1a1a1)
+
+    // === Peek View ===
+    "peekView.border": "#444444", // Lighter border (was #333333)
+    "peekViewEditor.background": "#000000", // Black bg
+    "peekViewEditor.matchHighlightBackground": "#f9990255", // More opaque highlight (was #f9990233)
+    "peekViewResult.background": "#000000", // Black bg
+    "peekViewResult.matchHighlightBackground": "#f9990255", // Consistent highlight
+    "peekViewTitle.background": "#000000", // Black bg
+
+    // === Picker Group ===
+    "pickerGroup.border": "#444444", // Lighter border (was #333333)
+    "pickerGroup.foreground": "#ffffff", // White text (was #ededed)
+
+    // === Progress Bar ===
+    "progressBar.background": "#ffffff", // White for visibility (was #ededed)
+
+    // === Quick Input ===
+    "quickInput.background": "#000000", // Black bg
+    "quickInput.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+
+    // === Scrollbar ===
+    "scrollbar.shadow": "#00000000", // Transparent shadow
+    "scrollbarSlider.activeBackground": "#555555", // Much more visible (was #333333)
+    "scrollbarSlider.background": "#444444", // Lighter base (was #333333)
+    "scrollbarSlider.hoverBackground": "#666666", // Brighter hover (was #333333)
+
+    // === Selection ===
+    "selection.background": "#ffffff33", // More visible selection (was #333333)
+
+    // === Settings ===
+    "settings.headerForeground": "#ffffff", // White for headers (was #ededed)
+    "settings.modifiedItemIndicator": "#ffffff", // White for modified (was #ededed)
+
+    // === Sidebar ===
+    "sideBar.background": "#000000", // Black bg
+    "sideBar.border": "#2a2a2a", // Consistent border
+    "sideBar.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+    "sideBarSectionHeader.background": "#000000", // Black bg
+    "sideBarSectionHeader.border": "#2a2a2a", // Consistent border
+    "sideBarSectionHeader.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+    "sideBarTitle.foreground": "#bbbbbb", // Brighter title (was #a1a1a1)
+
+    // === Status Bar ===
+    "statusBar.background": "#000000", // Black bg
+    "statusBar.border": "#2a2a2a", // Consistent border
+    "statusBar.debuggingBackground": "#ffffff", // White for debugging (was #ededed)
+    "statusBar.debuggingForeground": "#000000", // Black text
+    "statusBar.foreground": "#bbbbbb", // Brighter text (was #a1a1a1)
+    "statusBar.noFolderBackground": "#000000", // Black bg
+    "statusBarItem.prominentBackground": "#111111", // Slightly lighter (was #000000)
+
+    // === Tabs ===
+    "tab.activeBackground": "#111111", // Lighter active tab (was #0a0a0a)
+    "tab.activeBorder": "#111111", // Matching border
+    "tab.activeBorderTop": "#ffffff", // White top border (was #ededed)
+    "tab.activeForeground": "#ffffff", // White text (was #a1a1a1)
+    "tab.border": "#2a2a2a", // Consistent border
+    "tab.hoverBackground": "#222222", // More visible hover (was #000000)
+    "tab.inactiveBackground": "#000000", // Black for inactive
+    "tab.inactiveForeground": "#bbbbbb", // Brighter inactive (was #a1a1a1)
+    "tab.unfocusedActiveBorder": "#2a2a2a", // Consistent border (was #000000)
+    "tab.unfocusedActiveBorderTop": "#444444", // Lighter top border (was #000000)
+    "tab.unfocusedHoverBackground": "#222222", // Consistent hover
+
+    // === Terminal ===
+    "terminal.ansiBlack": "#000000", // Pure black
+    "terminal.ansiBlue": "#62a6ff", // Bright blue
+    "terminal.ansiBrightBlack": "#676767", // Gray
+    "terminal.ansiBrightBlue": "#62a6ff", // Bright blue
+    "terminal.ansiBrightCyan": "#14cbb7", // Cyan
+    "terminal.ansiBrightGreen": "#58c760", // Green
+    "terminal.ansiBrightMagenta": "#b675f1", // Magenta
+    "terminal.ansiBrightRed": "#f56464", // Red
+    "terminal.ansiBrightWhite": "#ffffff", // Full white (was #ededed)
+    "terminal.ansiBrightYellow": "#f99902", // Orange
+    "terminal.ansiCyan": "#14cbb7", // Cyan
+    "terminal.ansiGreen": "#58c760", // Green
+    "terminal.ansiMagenta": "#b675f1", // Magenta
+    "terminal.ansiRed": "#f56464", // Red
+    "terminal.ansiWhite": "#bbbbbb", // Brighter white (was #a1a1a1)
+    "terminal.ansiYellow": "#f99902", // Orange
+    "terminal.foreground": "#ffffff", // White text (was #ededed)
+    "terminal.selectionBackground": "#ffffff33", // More visible selection (was #333333)
+
+    // === Text Elements ===
+    "textBlockQuote.background": "#111111", // Lighter bg (was #000000)
+    "textBlockQuote.border": "#ffffff", // White border (was #ededed)
+    "textCodeBlock.background": "#111111", // Lighter bg (was #000000)
+    "textLink.activeForeground": "#62a6ff", // Blue for active links
+    "textLink.foreground": "#62a6ff", // Blue for links
+    "textPreformat.foreground": "#ffffff", // White for preformatted (was #ededed)
+    "textSeparator.foreground": "#bbbbbb", // Brighter separator (was #a1a1a1)
+
+    // === Title Bar ===
+    "titleBar.activeBackground": "#000000", // Black bg
+    "titleBar.activeForeground": "#bbbbbb", // Brighter text (was #a1a1a1)
+    "titleBar.border": "#2a2a2a", // Consistent border
+    "titleBar.inactiveBackground": "#000000", // Black bg
+    "titleBar.inactiveForeground": "#999999", // Lighter inactive (was #a1a1a1)
+
+    // === Tree ===
+    "tree.indentGuidesStroke": "#444444" // More visible guides (was #242424)
+  },
+  "tokenColors": [
+    // === Comments ===
+    {
+      "scope": ["comment", "punctuation.definition.comment", "string.comment"],
+      "settings": {
+        "foreground": "#bbbbbb" // Brighter comments for readability (was #a1a1a1)
+      }
+    },
+    // === Attributes ===
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#b675f1" // Magenta for attributes
+      }
+    },
+    // === Constants ===
+    {
+      "scope": [
+        "constant",
+        "entity.name.constant",
+        "variable.other.constant",
+        "variable.language",
+        "entity"
+      ],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for constants
+      }
+    },
+    // === Entity Names ===
+    {
+      "scope": [
+        "entity.name",
+        "meta.export.default",
+        "meta.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for entity names
+      }
+    },
+    // === Parameters and General Text ===
+    {
+      "scope": [
+        "variable.parameter.function",
+        "meta.jsx.children",
+        "meta.block",
+        "meta.tag.attributes",
+        "entity.name.constant",
+        "meta.object.member",
+        "meta.embedded.expression",
+        "meta.template.expression",
+        "string.other.begin.yaml",
+        "string.other.end.yaml"
+      ],
+      "settings": {
+        "foreground": "#ffffff" // White for clarity (was #ededed)
+      }
+    },
+    // === Functions ===
+    {
+      "scope": ["entity.name.function", "support.type.primitive"],
+      "settings": {
+        "foreground": "#b675f1" // Magenta for functions
+      }
+    },
+    // === Components ===
+    {
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for components
+      }
+    },
+    // === Keywords ===
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for keywords
+      }
+    },
+    // === Operators ===
+    {
+      "scope": [
+        "keyword.operator",
+        "storage.type.function.arrow",
+        "punctuation.separator.key-value.css",
+        "entity.name.tag.yaml",
+        "punctuation.separator.key-value.mapping.yaml"
+      ],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for operators
+      }
+    },
+    // === Storage ===
+    {
+      "scope": ["storage", "storage.type"],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for storage
+      }
+    },
+    // === Storage Modifiers ===
+    {
+      "scope": [
+        "storage.modifier.package",
+        "storage.modifier.import",
+        "storage.type.java"
+      ],
+      "settings": {
+        "foreground": "#ffffff" // White for modifiers (was #ededed)
+      }
+    },
+    // === Strings ===
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string",
+        "string punctuation.section.embedded source",
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#58c760" // Green for strings
+      }
+    },
+    // === Support ===
+    {
+      "scope": ["support"],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for support
+      }
+    },
+    // === Properties ===
+    {
+      "scope": [
+        "support.type.object.module",
+        "variable.other.object",
+        "support.type.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for properties
+      }
+    },
+    // === Property Names ===
+    {
+      "scope": ["meta.property-name"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for property names
+      }
+    },
+    // === Variables ===
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#ffffff" // White for variables (was #ededed)
+      }
+    },
+    // === Other Variables ===
+    {
+      "scope": ["variable.other"],
+      "settings": {
+        "foreground": "#ffffff" // White for other variables
+      }
+    },
+    // === Invalid Syntax ===
+    {
+      "scope": [
+        "invalid.broken",
+        "invalid.deprecated",
+        "invalid.illegal",
+        "invalid.unimplemented"
+      ],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for invalid syntax
+      }
+    },
+    // === Carriage Return ===
+    {
+      "scope": ["carriage-return"],
+      "settings": {
+        "foreground": "#111111" // Dark gray
+      }
+    },
+    // === Errors ===
+    {
+      "scope": ["message.error"],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for errors
+      }
+    },
+    // === String Source ===
+    {
+      "scope": ["string source"],
+      "settings": {
+        "foreground": "#ffffff" // White for string source
+      }
+    },
+    // === String Variables ===
+    {
+      "scope": ["string variable"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for string variables
+      }
+    },
+    // === Regular Expressions ===
+    {
+      "scope": ["source.regexp", "string.regexp"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for regex
+      }
+    },
+    // === Regex Character Classes ===
+    {
+      "scope": [
+        "string.regexp.character-class",
+        "string.regexp constant.character.escape",
+        "string.regexp source.ruby.embedded",
+        "string.regexp string.regexp.arbitrary-repitition"
+      ],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for regex details
+      }
+    },
+    // === Regex Escapes ===
+    {
+      "scope": ["string.regexp constant.character.escape"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#62a6ff" // Bold blue for escapes
+      }
+    },
+    // === Constants and Variables ===
+    {
+      "scope": ["support.constant", "support.variable"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for constants/variables
+      }
+    },
+    // === Module References ===
+    {
+      "scope": ["meta.module-reference"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for module refs
+      }
+    },
+    // === Markdown List ===
+    {
+      "scope": ["punctuation.definition.list.begin.markdown"],
+      "settings": {
+        "foreground": "#f99902" // Orange for list markers
+      }
+    },
+    // === Markdown Headings ===
+    {
+      "scope": ["markup.heading", "markup.heading entity.name"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#62a6ff" // Bold blue for headings
+      }
+    },
+    // === Markdown Quotes ===
+    {
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for quotes
+      }
+    },
+    // === Markdown Italic ===
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffffff" // White italic text (was #ededed)
+      }
+    },
+    // === Markdown Bold ===
+    {
+      "scope": ["markup.bold"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ffffff" // Bold white text
+      }
+    },
+    // === Markdown Raw ===
+    {
+      "scope": ["markup.raw"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for raw text
+      }
+    },
+    // === Markup Deleted ===
+    {
+      "scope": [
+        "markup.deleted",
+        "meta.diff.header.from-file",
+        "punctuation.definition.deleted"
+      ],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for deleted
+      }
+    },
+    // === Markup Inserted ===
+    {
+      "scope": [
+        "markup.inserted",
+        "meta.diff.header.to-file",
+        "punctuation.definition.inserted"
+      ],
+      "settings": {
+        "foreground": "#58c760" // Green for inserted (was #62a6ff)
+      }
+    },
+    // === Markup Changed ===
+    {
+      "scope": ["markup.changed", "punctuation.definition.changed"],
+      "settings": {
+        "foreground": "#f99902" // Orange for changed
+      }
+    },
+    // === Markup Ignored ===
+    {
+      "scope": ["markup.ignored", "markup.untracked"],
+      "settings": {
+        "foreground": "#777777" // Gray for ignored
+      }
+    },
+    // === Diff Range ===
+    {
+      "scope": ["meta.diff.range"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#b675f1" // Bold magenta for diff range
+      }
+    },
+    // === Diff Header ===
+    {
+      "scope": ["meta.diff.header"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for diff header
+      }
+    },
+    // === Separator ===
+    {
+      "scope": ["meta.separator"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#62a6ff" // Bold blue for separator
+      }
+    },
+    // === Output ===
+    {
+      "scope": ["meta.output"],
+      "settings": {
+        "foreground": "#62a6ff" // Blue for output
+      }
+    },
+    // === Export Default ===
+    {
+      "scope": ["meta.export.default"],
+      "settings": {
+        "foreground": "#ffffff" // White for export default
+      }
+    },
+    // === Bracket Highlighter ===
+    {
+      "scope": [
+        "brackethighlighter.tag",
+        "brackethighlighter.curly",
+        "brackethighlighter.round",
+        "brackethighlighter.square",
+        "brackethighlighter.angle",
+        "brackethighlighter.quote"
+      ],
+      "settings": {
+        "foreground": "#ffffff" // White for brackets (was #ededed)
+      }
+    },
+    // === Unmatched Brackets ===
+    {
+      "scope": ["brackethighlighter.unmatched"],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for unmatched
+      }
+    },
+    // === Links ===
+    {
+      "scope": ["constant.other.reference.link", "string.other.link"],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#62a6ff" // Underlined blue for links
+      }
+    },
+    // === Tokens ===
+    {
+      "scope": ["token.info-token"],
+      "settings": {
+        "foreground": "#6796E6" // Light blue for info
+      }
+    },
+    {
+      "scope": ["token.warn-token"],
+      "settings": {
+        "foreground": "#f99902" // Orange for warnings
+      }
+    },
+    {
+      "scope": ["token.error-token"],
+      "settings": {
+        "foreground": "#f05b8d" // Pink for errors
+      }
+    },
+    {
+      "scope": ["token.debug-token"],
+      "settings": {
+        "foreground": "#b675f1" // Magenta for debug
+      }
+    }
+  ]
+}
